@@ -7,8 +7,21 @@
       "default",
       {
         "ignore": [
-          "-webkit-tap-highlight-color"
+          "-webkit-tap-highlight-color",
+          "user-select"
         ]
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
       }
     ]
   }

@@ -44,9 +44,14 @@ app.get("/", (req, res) => {
 app.get("/user", (req, res) => {
   res.render("user", { title: "Profile", userProfile: { nickname: "Green Bit" } });
 });
+
+app.get("/todolist", (req, res) => {
+  res.render("todolist", { title: "To DO List"});
+});
 /**
  * Server Activation
  */
 app.listen(port, () => {
   console.log(`Listening to requests on http://localhost:${port}`);
 });
+

@@ -1,0 +1,18 @@
+extends layout
+
+block layout-content 
+      div.View.TasksView
+        h1.Banner TO-DO LIST App
+        .container
+          .todo-app
+            h2
+              | TO-DO List 
+              img(src="./icon.png", alt)
+            .row
+              input#input-box(type="text", placeholder="Add your task")
+              button(onclick="addTask()") Add
+            ul#list-container
+              //
+                <li class="checked">Task 1</li>
+                                <li>Task 2</li>
+                                <li>Task 3</li> 
