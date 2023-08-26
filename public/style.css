@@ -63,7 +63,7 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
 
   height: 100%;
@@ -168,6 +168,21 @@ a {
 .container{
     width: 100%;
     padding: 10px;
+}
+.View1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+
+    padding: 20px;
+
+    background-size: cover;
+
+    font-family: "Merriweather Sans", sans-serif;
 }
 .todo-app{
     width: 100%;

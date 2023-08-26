@@ -1,13 +1,13 @@
 extends layout
 
 block layout-content 
-      div.View.TasksView
+      div.View1.TasksView
         h1.Banner TO-DO LIST App
         .container
           .todo-app
             h2
               | TO-DO List 
-              img(src="./icon.png", alt)
+              img(src="./to-do-list/icon.png", alt)
             .row
               input#input-box(type="text", placeholder="Add your task")
               button(onclick="addTask()") Add
@@ -15,4 +15,4 @@ block layout-content
               //
                 <li class="checked">Task 1</li>
                                 <li>Task 2</li>
-                                <li>Task 3</li> 
+                                <li>Task 3</li>

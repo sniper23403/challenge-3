@@ -8,8 +8,8 @@ html
     meta(name="theme-color", content="#000000")
     title #{title} | Green Bit
     link(rel="stylesheet" href="/style.css")
-    link(rel="stylesheet" href="/styles.css")
-    script(src="script.js")
+    script
+        include script.js
   body
     div#root
       block layout-content
