@@ -46,7 +46,7 @@ app.get("/user", (req, res) => {
 });
 
 app.get("/todolist", (req, res) => {
-  res.render("todolist", { title: "To DO List"});
+  res.render("todolist", { title: "To Do List"});
 });
 /**
  * Server Activation
