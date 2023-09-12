@@ -30,7 +30,7 @@ app.set("view engine", "pug");
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(cors());
-app.express(express.json());
+app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 /**
@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/user", (req, res) => {
-  res.render("user", { title: "Profile", userProfile: { nickname: "Green Bit" } });
+  res.render("user", { title: "Profile", userProfile: { nickname: "Green Bit G02" } });
 });
 
 app.get("/todolist", (req, res) => {
