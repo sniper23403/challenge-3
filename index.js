@@ -42,11 +42,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/user", (req, res) => {
-  res.render("user", { title: "Profile", userProfile: { nickname: "Green Bit" } });
+  res.render("user", { title: "Profile", userProfile: { nickname: "Green Bit G02" } });
 });
 
 app.get("/todolist", (req, res) => {
-  res.render("todolist", { title: "To DO List"});
+  res.render("todolist", { title: "To Do List"});
 });
 /**
  * Server Activation
